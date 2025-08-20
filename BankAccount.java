@@ -74,16 +74,7 @@ public class BankAccount {
      }
 
      public boolean equals(BankAccount otherAccount){
-        if(this.ownerName != otherAccount.ownerName){
-            return false;
-        }
-        else if(this.balance != otherAccount.balance){
-            return false;
-        }
-        else if(this.opened != otherAccount.opened){
-            return false;
-        }
-        else if(this.isBlocked != otherAccount.isBlocked){
+        if(this != otherAccount){
             return false;
         }
         return true;
