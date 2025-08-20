@@ -11,7 +11,7 @@ public class BankAccount {
         this.balance = 0;
         this.opened = LocalDateTime.now();
         this.isBlocked = false;
-        System.out.println("New account: \n\tName: " + this.ownerName + "\n\tened: " + this.opened + "\n");
+        System.out.println("New account: \n\tName: " + this.ownerName + "\n\topened: " + this.opened + "\n");
     }
     
   public boolean deposit(int amount) {
